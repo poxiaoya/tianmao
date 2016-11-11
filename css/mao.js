@@ -322,7 +322,16 @@ var bannerzuobox=$(".bannerzuobox"),
 	};
 
 
-
+	//网站下拉
+       var wangzhan=$(".wangzhan")[0];
+       var wzxl=$(".wzxl")[0];
+       wangzhan.onmouseover=function(){
+          wzxl.style.display="block";
+       }
+       wangzhan.onmouseout=function(){
+        wzxl.style.display="none";
+       }
+     
 
 
 

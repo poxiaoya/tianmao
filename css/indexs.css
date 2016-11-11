@@ -45,12 +45,8 @@ a em p{
 	background:url(../img/jiantou.png) no-repeat center;
 }
 
-.wode_bd{
-	width: 74px;padding: 8px 10px;line-height: 1.4;
-	background: #fff;border-color: #eee;border-width: 0 1px 1px;position: absolute;top: 32px;left: 0;display:none;
-}
-.wode_bd a{color: #666;font-size: 12px;line-height: 20px;display: block;text-decoration: none;}
-.wode_bd a:hover {color:#c40000;text-decoration: underline;cursor: pointer;}
+
+
 
 
 
@@ -177,7 +173,7 @@ a em p{
 
 
 
-.wangzhan{width: 90px;height: 32px;float: left;	cursor: pointer;}
+.wangzhan{width: 90px;height: 32px;float: left;	cursor: pointer;position:relative;}
 .wangzhan:hover{background: #fff;}
 .wangzhan-img{width: 12px;height: 32px;float: left;margin-left: 10px;background:url(../img/wangzhan.png) no-repeat center;}
 .wangzhan-wenzi{
@@ -192,6 +188,36 @@ a em p{
 }
 .wangzhan:hover .wode-jiantou{float: right;
 	background:url(../img/jiantou1.png) no-repeat center;}
+
+/*导航*/
+.wzxl{width:1200px;height:250px;background:#fff;position:absolute;z-index:9999;margin-left:-1110px;display:none;}
+.shua{width:1px;height:250px;background:url(images/shu.png) no-repeat center;float:left;}
+.rdtj{width:300px;height:250px;float:left;}
+.rdtja{width:200px;height:30px;font-size:16px;color: #f57821;margin-left:30px;margin-top:20px;}
+.tmcs{width:60px;height:150px;float: left;margin-left:30px;}
+.tmcsa{width:60px;height:30px;font-size:12px;color:black;}
+.tmcsa:hover{color:#f57821;text-decoration:underline;}
+.rdtj1{width:380px;height:250px;float:left;}
+.rdtjb{width:200px;height:30px;font-size:16px;color: #2263d4;margin-left:30px;margin-top:20px;}
+.hysc{width:60px;height:150px;float: left;margin-left:30px;}
+.hysca{width:60px;height:30px;font-size:12px;color:black;}
+.hysca:hover{text-decoration:underline;color:#2263d4;}
+.rdtj2{width:280px;height:250px;float:left;}
+.rdtjc{width:200px;height:30px;font-size:16px;color: #000;margin-left:30px;margin-top:20px;}
+.hysd{width:60px;height:150px;float: left;margin-left:30px;}
+.hyscb{width:60px;height:30px;font-size:12px;color:black;}
+.hyscb:hover{text-decoration:underline;}
+.rdtj3{width:190px;height:250px;float:left;}
+.rdtjd{width:150px;height:30px;font-size:16px;color: #737373;margin-left:30px;margin-top:20px;}
+.hyse{width:60px;height:150px;float: left;margin-left:30px;}
+.hyscc{width:60px;height:30px;font-size:12px;color:#737373;}
+.hyscc:hover{text-decoration:underline;}
+.wode_bd{
+	width: 74px;padding: 8px 10px;line-height: 1.4;
+	background: #fff;border-color: #eee;border-width: 0 1px 1px;position: absolute;top: 32px;left: 0;display:none;
+}
+.wode_bd a{color: #666;font-size: 12px;line-height: 20px;display: block;text-decoration: none;}
+.wode_bd a:hover {color:#c40000;text-decoration: underline;cursor: pointer;}
 /*logo模块*/
 .hear1{width:auto ;height:130px ;
 	margin: 0 auto;}
@@ -268,7 +294,7 @@ a em p{
 
 .banner-box{width: 100%;height:500px;background: #1969A6 }
 .banner-middle{width: 1230px;height: 500px;position: relative;margin:0 auto;}
-.left{width: 200px;height:500px;background:rgba(255,255,255,0.5);z-index: 9999;position: absolute;top: 0;left: 0;}
+.left{width: 200px;height:500px;background:rgba(255,255,255,0.5);z-index: 9996;position: absolute;top: 0;left: 0;}
 .banner{width: 1230px;height: 500px;}
 .banner-item{position: absolute;left: 0;top: 0;width: 1130px;height: 500px;margin:0 auto;display: block;}
 .btnbox{width: 250px;height: 20px;position: absolute;left:40%;bottom: 20px;z-index:9999;}
@@ -414,14 +440,14 @@ img{vertical-align: middle}
 
 
 
-.banneryou{width: 100px;height:480px;margin-top: 9px;right: 73px;background-color:rgba(0,0,0,0.5);color: #fff;position: absolute;float: right;z-index: 9999}
+.banneryou{width: 100px;height:480px;margin-top: 9px;right: 73px;background-color:rgba(0,0,0,0.5);color: #fff;position: absolute;float: right;z-index: 9998}
 .banneryou:hover{background-color:rgba(0,0,0,0.8);}
 .banneryou-top{width: 100%;height: 90px;color:#fff;overflow: hidden;}
 .youtop1{width: 70px;height: 70px;margin:12px 15px 12px 15px;background: url(../img/hi.png) no-repeat center;}
 .banneryou1-top{width: 80px;height:83px;font-size: 12px;margin:0 auto;
 	text-align: center;
 }
-.hi{width: 48px;height: 11px;color: #fff;line-height:11px;font-size: 11px;margin: 0 auto;
+.hi{width: 60px;height: 11px;color: #fff;line-height:11px;font-size: 11px;margin: 0 auto;
 }
 .you-denglu{height: 24px;border-radius: 12px;background-color: #dd2727;margin:9px auto 6px;}
 .banneryou1-top a{width: 80px;outline: 0 none;text-decoration: none;color: #fff;padding: 0;

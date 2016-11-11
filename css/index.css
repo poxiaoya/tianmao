@@ -105,6 +105,30 @@ a em p{
 }
 .wangzhan:hover .wode-jiantou{float: right;
 	background:url(../img/jiantou1.png) no-repeat center;}
+
+/*导航*/
+.wzxl{width:1200px;height:250px;background:#fff;position:absolute;margin-top:34px;z-index:1000;margin-left:-1120px;display:none;}
+.shua{width:1px;height:250px;background:url(images/shu.png) no-repeat center;float:left;}
+.rdtj{width:300px;height:250px;float:left;}
+.rdtja{width:200px;height:30px;font-size:16px;color: #f57821;margin-left:30px;margin-top:20px;}
+.tmcs{width:60px;height:150px;float: left;margin-left:30px;}
+.tmcsa{width:60px;height:30px;font-size:12px;color:black;}
+.tmcsa:hover{color:#f57821;text-decoration:underline;}
+.rdtj1{width:380px;height:250px;float:left;}
+.rdtjb{width:200px;height:30px;font-size:16px;color: #2263d4;margin-left:30px;margin-top:20px;}
+.hysc{width:60px;height:150px;float: left;margin-left:30px;}
+.hysca{width:60px;height:30px;font-size:12px;color:black;}
+.hysca:hover{text-decoration:underline;color:#2263d4;}
+.rdtj2{width:280px;height:250px;float:left;}
+.rdtjc{width:200px;height:30px;font-size:16px;color: #000;margin-left:30px;margin-top:20px;}
+.hysd{width:60px;height:150px;float: left;margin-left:30px;}
+.hyscb{width:60px;height:30px;font-size:12px;color:black;}
+.hyscb:hover{text-decoration:underline;}
+.rdtj3{width:190px;height:250px;float:left;}
+.rdtjd{width:150px;height:30px;font-size:16px;color: #737373;margin-left:30px;margin-top:20px;}
+.hyse{width:60px;height:150px;float: left;margin-left:30px;}
+.hyscc{width:60px;height:30px;font-size:12px;color:#737373;}
+.hyscc:hover{text-decoration:underline;}
 /*logo模块*/
 .hear1{width:auto ;height:130px ;
 	margin: 0 auto;}
