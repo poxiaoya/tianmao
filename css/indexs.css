@@ -224,7 +224,7 @@ a em p{
 .header-extra{width: 1230px;height: auto;margin:0 auto;}
 .mao-logo{width:290px ;height:130px ;margin-left: auto;}
 .hear1box{width:625px ;height:40px ;border:2px solid #c40000;margin: 0 auto ;margin-left: 80px;margin-top: 38px;}
-.hear1-text{width: 493px;height: 100%;}
+.hear1-text{width: 493px;height: 100%;border:none;box-shadow:none;outline:none;}
 .hear1-btnSubmit{width:132px;height:100%;background:#c40000;color:#fff;cursor: pointer;}
 .hear2box{width: 635px;height: 18px;padding-top: 4px;margin: 8px;/*background: #ccc*/;margin-left: -2px;}
 .h2-text a{width: 70px;height: 15px;padding: 10px;font-size: 14px;text-decoration: none;color: #999;cursor: pointer;}
